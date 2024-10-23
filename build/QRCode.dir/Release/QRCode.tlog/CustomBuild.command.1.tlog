@@ -1,0 +1,10 @@
+^C:\USERS\79059\DOCUMENTS\WORK\QRCODESCANNER\CMAKELISTS.TXT
+setlocal
+C:\cmake-3.30.4-windows-x86_64\bin\cmake.exe -SC:/Users/79059/Documents/Work/QRCodeScanner -BC:/Users/79059/Documents/Work/QRCodeScanner/build --check-stamp-file C:/Users/79059/Documents/Work/QRCodeScanner/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

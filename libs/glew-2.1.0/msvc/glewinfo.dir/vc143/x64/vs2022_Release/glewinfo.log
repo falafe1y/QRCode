@@ -1,0 +1,3 @@
+﻿  glewinfo.c
+C:\Users\79059\Documents\Work\glew-2.1.0\src\glewinfo.c(16413,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+LINK : fatal error LNK1181: не удается открыть входной файл "glew32.lib"

@@ -1,0 +1,8 @@
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/glewinfo.dir
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/glew.dir
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/glew_s.dir
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/uninstall.dir
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/visualinfo.dir
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/INSTALL.dir
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/ALL_BUILD.dir
+C:/Development/op3d_active/glew-2.1.0/msvc/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+C:/Users/79059/Documents/Work/QRCodeScanner/build/CMakeFiles/QRCode.dir
+C:/Users/79059/Documents/Work/QRCodeScanner/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/79059/Documents/Work/QRCodeScanner/build/CMakeFiles/ZERO_CHECK.dir

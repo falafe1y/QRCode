@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20FDC2C1-6F32-32FF-92C5-C9573C0FDE20}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>QRCode</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\79059\Documents\Work\QRCodeScanner\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QRCode.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QRCode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\79059\Documents\Work\QRCodeScanner\x64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QRCode.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QRCode</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    </LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\79059\Documents\Work\QRCodeScanner\libs\stb;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.4.bin.WIN64\include\GLFW;C:\Users\79059\Documents\Work\QRCodeScanner\libs\easyloggingpp\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glew-2.1.0\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.3.8\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\rapidcsv\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>
+      </Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_AMD64_;_WIN64;_WIN32;_WIN32_WINNT=0x0601;GLEW_STATIC;IMGUI_DEFINE_MATH_OPERATORS;SDL_MAIN_HANDLED;IMGUI_IMPL_OPENGL_LOADER_GLEW;CMAKE_INTDIR="Debug";UNICODE;_UNICODE</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_AMD64_;_WIN64;_WIN32;_WIN32_WINNT=0x0601;GLEW_STATIC;IMGUI_DEFINE_MATH_OPERATORS;SDL_MAIN_HANDLED;IMGUI_IMPL_OPENGL_LOADER_GLEW;CMAKE_INTDIR=\"Debug\";UNICODE;_UNICODE</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glew-2.1.0\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.3.8\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\rapidcsv\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glew-2.1.0\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.3.8\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\rapidcsv\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>dxgi.lib;dxguid.lib;d3d11.lib;glfw3_mt.lib;glfw3.lib;sqlite3.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.19041.0\um\x64;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.4.bin.WIN64\lib-vc2022;C:/Users/79059/Documents/Work/QRCodeScanner/libs/sqlite;C:/Users/79059/Documents/Work/QRCodeScanner/libs/sqlite/$(Configuration);C:/Users/79059/Documents/Work/QRCodeScanner/libs/glfw-3.3.8/src/Debug;C:/Users/79059/Documents/Work/QRCodeScanner/libs/glfw-3.3.8/src/Debug/$(Configuration);C:/Users/79059/Documents/Work/QRCodeScanner/libs/glew-2.1.0/lib;C:/Users/79059/Documents/Work/QRCodeScanner/libs/glew-2.1.0/lib/$(Configuration);C:/Users/79059/Documents/Work/QRCodeScanner;C:/Users/79059/Documents/Work/QRCodeScanner/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/79059/Documents/Work/QRCodeScanner/x64/Debug/QRCode.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/79059/Documents/Work/QRCodeScanner/x64/Debug/QRCode.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\79059\Documents\Work\QRCodeScanner\libs\DirectXTex\DirectXTex;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.4.bin.WIN64\include\GLFW;C:\Users\79059\Documents\Work\QRCodeScanner\libs\easyloggingpp\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glew-2.1.0\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.3.8\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\rapidcsv\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>
+      </Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;_CONSOLE;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_CONSOLE;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glew-2.1.0\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.3.8\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\rapidcsv\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glew-2.1.0\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.3.8\include;C:\Users\79059\Documents\Work\QRCodeScanner\libs\rapidcsv\src;C:\Users\79059\Documents\Work\QRCodeScanner\libs\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;glfw3_mt.lib;glfw3.lib;sqlite3.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.4.bin.WIN64\lib-static-ucrt;C:\Users\79059\Documents\Work\QRCodeScanner\libs\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\79059\Documents\Work\QRCodeScanner\libs\sqlite;D:/Michael/QR/QRCode/libs/glfw-3.3.8/src/Debug;D:/Michael/QR/QRCode/libs/glfw-3.3.8/src/Debug/$(Configuration);D:/Michael/QR/QRCode/libs/sqlite;D:/Michael/QR/QRCode/libs/sqlite/$(Configuration);C:/Users/79059/Documents/Work/QRCodeScanner;C:/Users/79059/Documents/Work/QRCodeScanner/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/79059/Documents/Work/QRCodeScanner/x64/Release/QRCode.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/79059/Documents/Work/QRCodeScanner/x64/Release/QRCode.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\79059\Documents\Work\QRCodeScanner\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/79059/Documents/Work/QRCodeScanner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\cmake-3.30.4-windows-x86_64\bin\cmake.exe -SC:/Users/79059/Documents/Work/QRCodeScanner -BC:/Users/79059/Documents/Work/QRCodeScanner/build --check-stamp-file C:/Users/79059/Documents/Work/QRCodeScanner/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\79059\Documents\Work\QRCodeScanner\CMake\Default.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\CMake\DefaultCXX.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\CMake\Utils.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\3.30.4\CMakeCXXCompiler.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\3.30.4\CMakeRCCompiler.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\3.30.4\CMakeSystem.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/79059/Documents/Work/QRCodeScanner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\cmake-3.30.4-windows-x86_64\bin\cmake.exe -SC:/Users/79059/Documents/Work/QRCodeScanner -BC:/Users/79059/Documents/Work/QRCodeScanner/build --check-stamp-file C:/Users/79059/Documents/Work/QRCodeScanner/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\79059\Documents\Work\QRCodeScanner\CMake\Default.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\CMake\DefaultCXX.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\CMake\Utils.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\3.30.4\CMakeCXXCompiler.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\3.30.4\CMakeRCCompiler.cmake;C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\3.30.4\CMakeSystem.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\cmake-3.30.4-windows-x86_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\79059\Documents\Work\QRCodeScanner\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libs\imgui\backend\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\libs\imgui\backend\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Texture.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\common.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\CSVHelper.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\DBHelper.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\main.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\WindowDesigner.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend\imgui_impl_glfw.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\backend\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\ImFileDialog.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\imgui.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\imgui_tables.cpp" />
+    <ClCompile Include="C:\Users\79059\Documents\Work\QRCodeScanner\libs\imgui\imgui_widgets.cpp" />
+    <ClInclude Include="C:\Users\79059\Documents\Work\QRCodeScanner\common.h" />
+    <ClInclude Include="C:\Users\79059\Documents\Work\QRCodeScanner\CSVHelper.h" />
+    <ClInclude Include="C:\Users\79059\Documents\Work\QRCodeScanner\DBHelper.h" />
+    <ClInclude Include="C:\Users\79059\Documents\Work\QRCodeScanner\License.h" />
+    <ClInclude Include="C:\Users\79059\Documents\Work\QRCodeScanner\QRCodeGenerator.h" />
+    <ClInclude Include="C:\Users\79059\Documents\Work\QRCodeScanner\WindowDesigner.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\79059\Documents\Work\QRCodeScanner\build\ZERO_CHECK.vcxproj">
+      <Project>{87D94BA4-B129-3A04-AA90-2091EC0A075B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\79059\Documents\Work\QRCodeScanner\libs\easyloggingpp\src\easylogging++.cc(2653,25): warning C4101: ex: неиспользованная локальная переменная
+  (компиляция исходного файла "../main.cpp")
+  
+  QRCode.vcxproj -> C:\Users\79059\Documents\Work\QRCodeScanner\x64\Debug\QRCode.exe
